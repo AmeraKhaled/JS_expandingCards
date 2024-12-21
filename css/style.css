@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+.parent{
+    /* width: 1000px; */
+    height: 700px;
+    /* background-color: darkseagreen; */
+    padding: 20px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin:20px auto;
+}
+.parent div{
+    width: 8%;
+    height: 90%;
+    padding: 20px;
+    background-color: darkslategrey ;
+    text-align: center;
+    border-radius: 80px;
+    transition: 1s;
+    margin: 10px  10px;
+    /* background-image: url(../pexels-celine-3776818-14495016.jpg); */
+    background-size: cover;
+    /* background-size: ; */
+    background-repeat: no-repeat;
+    color: white;
+}
+/* .parent .div1{
+    width: 40%;
+}
+.parent div:hover{
+    width: 40%;
+}
+.parent div:not(:hover){
+    width: 10%;
+} */
+
